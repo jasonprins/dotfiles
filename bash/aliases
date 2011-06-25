@@ -1,0 +1,29 @@
+# TDD/BDD
+
+# run cucumber feature
+function cu() {
+	bundle exec cucumber features/$1.feature
+}
+# run cucumber feature formatted pretty
+function cup() {
+	bundle exec cucumber features/$1.feature --format pretty --color
+}
+
+#rvm
+alias rvm304='rvm gemset use rails304'
+alias rvm307='rvm gemset use rails307'
+alias rvm31='rvm gemset use rails31'
+
+# git
+alias gs='git status'
+
+# Utility
+alias reload='source ~/bin/dotfiles/bash/aliases'
+alias ea='mate -w ~/bin/dotfiles/bash/aliases && reload' # Edit aliases
+alias ee="mate ~/bin/dotfiles/bash/env"
+alias edot="mate ~/bin/dotfiles"
+
+function take() { 
+    mkdir -p "$1"
+    cd "$1" 
+}
