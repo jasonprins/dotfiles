@@ -10,9 +10,9 @@ function cup() {
 }
 
 #rvm
-alias rvm304='rvm gemset use rails304'
-alias rvm307='rvm gemset use rails307'
-alias rvm31='rvm gemset use rails31'
+alias rvm310='rvm gemset use 310'
+alias rgu='rvm gemset use'
+alias rgn='rvm gemset name'
 
 # git
 alias gs='git status'
@@ -22,6 +22,8 @@ alias reload='source ~/bin/dotfiles/bash/aliases'
 alias ea='mate -w ~/bin/dotfiles/bash/aliases && reload' # Edit aliases
 alias ee="mate ~/bin/dotfiles/bash/env"
 alias edot="mate ~/bin/dotfiles"
+
+alias c='clear'
 
 function take() { 
     mkdir -p "$1"
