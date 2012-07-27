@@ -10,12 +10,14 @@ function cup() {
 }
 
 #rvm
-alias rvm310='rvm gemset use 310'
+alias rvm32='rvm gemset use 193-32'
 alias rgu='rvm gemset use'
 alias rgn='rvm gemset name'
+alias rgl='rvm gemset list'
 
 # git
 alias gs='git status'
+alias gad='git add .; gs'
 
 # Utility
 alias reload='source ~/bin/dotfiles/bash/aliases'
